@@ -19,6 +19,7 @@ html{
 }
 
 /* Nav bar */
+
 div.row-1-1{
     background-color: aqua;
     border-radius: 105px;
@@ -51,28 +52,12 @@ div.row-1-1 a:hover, div.row-1-1 a:active{
 div#section{
     letter-spacing: 2px;
 }
-div#p{
-    font-size: 17px;
-    color: rgb(5, 238, 255);
-    width: fit-content;
-    background-color: rgb(78, 78, 78);
-    line-height: 1.5em;
-}
-div.col-1-1{
-    border-radius: 105px 0px 0px 105px ;
-    padding: 5% 1% 5% 5%;
-}
-div.col-1-2{
-    border-radius: 0px 105px 105px 0px ;
-    padding: 5% 5% 5% 1%;
-}
-
 div.row-1-3{
     display: -webkit-flex-box;
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    padding-top: 8%;
+    padding-top: 6%;
     padding-bottom: 8%;
     padding-left: 40px;
     background-color: rgba(0, 0, 0, 0.884);
@@ -80,10 +65,14 @@ div.row-1-3{
     box-shadow: 10px 0px 10px gray,
                 -10px 0px 10px gray;
     font-family: Other;
+    /*border-radius: 0px 0px 55px 55px;*/
 }
 div.row-1-2{
     padding-top: 1.5%;
     padding-bottom: 1.7%;
+    /*margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 55px 55px 0px 0px;*/
 }
 h1{
     display: block;
@@ -91,18 +80,35 @@ h1{
     font-size: 30px;
     border-radius: 105px;
     background-color: gray;
-    width: 20%;
+    width: 36%;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
 }
-div#p>a{
+p{
+    font-size: 32px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(5, 238, 255);
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(78, 78, 78);
+    border-radius: 105px;
+    line-height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+p>a{
     color: rgb(5, 238, 255);
     text-decoration: none;
 }
-div#p>a:hover, div#p>a:active{
+p>a:hover, p>a:active{
     background-color: gray;
+    border-radius: 55px;
 }
 img{
     margin-left: auto;
